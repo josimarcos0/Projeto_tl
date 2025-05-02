@@ -8,6 +8,9 @@
     margin: 0px;
     box-sizing: border-box;
 }
+p{
+    font-size: 0,03em;
+}
 
 body,html{
     background: url(./imagens/Paisaje\ neón\ 2\ -\ Neon\ landscape\ 2\ 『PC』.jpg) no-repeat;
@@ -60,6 +63,7 @@ div#formulario > p {
 }
 
 form>div.campo{
+    background-color: blueviolet;
     height: 40%;
     border-radius: 5px;
     margin: 5px ;
@@ -70,6 +74,15 @@ form>div.campo{
 
 div.campo>label{
     display: none;
+    
+}
+
+div.campo>span{
+    color: white;
+    
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
 }
 
 form > input[type=submit]{
@@ -79,14 +92,27 @@ form > input[type=submit]{
     height: 30px;
     background-color: blueviolet;
     color: white;
-    border: none;
+    border: 0px;
     border-radius: 5px;
     cursor: pointer;
     margin-top: 10px;
 }
 
+div.campo>input{
+    background-color: white;
+    width:80%;
+    font-size: 1em;
+    transform: translateY(-6px);
+    border-radius: 8px;
+    border: 0px;
+    padding: 4px;
+    height: 38px;
+    color: white; 
+    
+}
 form > input[type=submit]:hover{
     background-color: rgb(68, 22, 111);
+   
 }
 
 form > a.botao{
@@ -103,6 +129,7 @@ form > a.botao{
     border-radius: 7px;
     text-decoration: none;
     margin-top: 10px;
+   
 }
 
 form > a.botao:hover{
@@ -114,8 +141,12 @@ form > a.botao > span{
     font-size: 0.8em;
 }
 
-
-
+div.rodape>p{
+    text-align: center; 
+    padding: 2px; 
+    font-size: 0.6em; 
+    color: #666;
+}
 
 
 
