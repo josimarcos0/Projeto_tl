@@ -15,6 +15,19 @@
     float: right;
     width: 70%;
   }
+
+  form > input[type=submit]{
+    width: 30%;
+    margin-left: 24px;
+}
+
+form > a.botao {
+  width: 30%;
+  margin-left: 24px;
+
+  
+}
+
 }
 
 @media screen and (min-width:992px){
@@ -40,6 +53,29 @@
   div#formulario > p {
       font-size: 1.2em;
   }
+
+  form>div.campo{
+    width: 100%;
+    padding: 10px; /* aumenta o preenchimento interno */
+    font-size: 1em; /* aumenta o tamanho da fonte */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    
+}
+
+  form > input[type=submit]{
+    width: 80%;
+    margin-left: 24px;
+    margin-top: 50px;
+}
+
+form > a.botao {
+  width: 80%;
+  margin-left: 24px;
+  margin-top: 10px;
+}
+
 }
 
 
